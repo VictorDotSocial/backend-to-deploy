@@ -14,6 +14,6 @@ app.get("/test", (req, res) => {
   });
 });
 
-app.listen(process.env.APP_PORT || 3000, () => {
+app.listen(process.env.PORT || `0.0.0.0:$PORT`, () => {
   console.log("Servidor rulando");
 });
