@@ -10,7 +10,7 @@ app.get("/test", (req, res) => {
   console.log("Petición a TEST");
   res.json({
     success: true,
-    message: "¡API respondiendo!",
+    message: "¡API respondiendo con NUEVO mensaje!",
   });
 });
 
